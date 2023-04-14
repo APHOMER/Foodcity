@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<!-- ! tab or ! enter -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the most extraordinary Food Palace in Ketu Lagos">
+    <meta name="keywords" content="food, Ketu Food City, Aphomer Food City">
+    <!-- this is for responsive design... for UI to be able to respond to different screen sizes -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css" media="screen and (max-width: 768px)">
+    <title>Aphomer FC | Contact</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">AFC</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="current" href="contact.html">Contacts</a></li>
+                    <li><a href="owner.html">Owner's Profile</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+            <p>contact us by filling the form below</p>
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" autocomplete="on">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Your Mail" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <!-- <textarea type="text" name="message" id="message" placeholder="Drop Your Message Here" cols="30" row="5"></textarea> -->
+                    <textarea type="text" name="message" id="message" placeholder="Drop Your Message Here"></textarea>
+                </div>
+                <div>
+                    <button type="submit" name="btn" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+    <section id="contact-info" class="bg-dark">
+        <div class="container">
+            <div class="box">
+                <img src="./imgs/hoeticonlight.png" alt="hotelicon">
+                <h3>Location</h3>
+                <p>block 1, Ozolua road Unilag, Lagos, Nigeria</p>
+            </div>
+            <div class="box">
+                <img src="./imgs/phoneicon.png" alt="hotelicon">
+                <h3>Phone Number</h3>
+                <p>(+234)810-231-0589</p>
+            </div>
+            <div class="box">
+                <img src="./imgs/mailicon.png" alt="hotelicon">
+                    <h3>Email Address</h3>
+                    <p><a href="aaphomer@gmail.com"></a>Aaphomer@gmail.com</p>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <footer id="main-footer">
+        <p>Aphomer Food &copy; 2022, All Right Reserved</p>
+    </footer>
+</body>
+
+</html>
